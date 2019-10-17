@@ -4,7 +4,7 @@ session_start();
 
 if (isset($_POST['submit'])) {
 
-	include 'dbh.inc.php';
+	include 'dbh.inc.php'; //Database handler
 
 	$uid = mysqli_real_escape_string($conn, $_POST['uid']);
 	$pwd = mysqli_real_escape_string($conn, $_POST['pwd']);
