@@ -1,2 +1,4 @@
-# backend-login
-Login system utilized in a work-in-progress web application
+### loginSystem.php
+
+Sample of a login function created with PHP for my current project.
+
